@@ -1,0 +1,24 @@
+// chỉ chứa đường dẫn
+// Helper
+@import './Helper/_variables';
+@import './Helper/_mixin';
+@import './Helper/_extend';
+
+@import './base/reset';
+//  có import file sass của thư viện để trên đây
+// vendors
+
+// base
+@import './base/_customize';
+
+// component
+@import './components/_button';
+
+// layout
+@import './layout/_header';
+@import './layout/_carousel.scss';
+@import './layout/_intro';
+@import './layout/_banner';
+@import './layout/_Feedbacks';
+@import './layout/_footer';
+// Theme
