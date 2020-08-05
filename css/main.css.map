@@ -16,7 +16,8 @@
         "../sass/layout/_Feedbacks.scss",
         "../sass/layout/_footer.scss",
         "../sass/layout/_information.scss",
-        "../sass/layout/_Moretopics.scss"
+        "../sass/layout/_Moretopics.scss",
+        "../sass/layout/_StayInformed.scss"
     ],
     "names": [],
     "file": "main.css"
