@@ -37,5 +37,57 @@ html, body {
   font-size: 14px;
   color: #fff;
   font-weight: normal;
+  margin: 0px;
+  padding: 13px 0;
+}
+
+.more-topics {
+  background-color: #000;
+}
+
+.more-topics .Content {
+  padding-top: 30px;
+}
+
+.more-topics .Content .row {
+  width: 95%;
+  margin: auto;
+}
+
+.more-topics .Content .row .content__Item {
+  padding: 0px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.more-topics .Content .row .content__Item h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: normal;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 40px;
+}
+
+.more-topics .Content .row .content__Item ul {
+  list-style: none;
+}
+
+.more-topics .Content .row .content__Item ul li {
+  font-size: 14px;
+  color: #999;
+  font-weight: normal;
+}
+
+.more-topics .Content .row .content__Item ul li span {
+  transition: all 0.5s;
+}
+
+.more-topics .Content .row .content__Item ul li span:hover {
+  cursor: pointer;
+  font-size: 14px;
+  color: #00adef;
+  font-weight: normal;
 }
 /*# sourceMappingURL=main.css.map */

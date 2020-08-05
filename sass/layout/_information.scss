@@ -14,6 +14,8 @@
         margin: 0 auto;
         p{
             @include styleText($fs-0,$color-white-0,$fw-normal);
+            margin: 0px;
+            padding: $pd-0 0;
         }
     }
 }
