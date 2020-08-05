@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+}
+
+.More-infomation {
+  background-color: #000;
+}
+
+.More-infomation .information__content {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.More-infomation .information__content .content__Item {
+  margin: 0 14px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.More-infomation .infomation__detail {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.More-infomation .infomation__detail p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+}
+/*# sourceMappingURL=main.css.map */
