@@ -4,6 +4,7 @@ footer{
         width: 95%;
         margin: 0 auto;
         p{
+            padding-top: $pd-1;
             @include styleText($fs-0,$color-gray-2,$fw-normal);
             span{
                 color: $color-white-0;

@@ -1,9 +1,12 @@
 .LoGo{
     background-color: $color-black-0;
-    padding: $pd-1 0px;
-    border-bottom: 1px solid $color-gray-2;
+    padding-top: $pd-1;
+    
     .Icon_content{
         width: 95%;
+        margin: 0 auto;
+        border-bottom: 1px solid $color-black-2;
+        padding-bottom: $pd-2;
     }
     .row{
         .IMG{
