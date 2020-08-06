@@ -1,0 +1,24 @@
+.LoGo{
+    background-color: $color-black-0;
+    padding: $pd-1 0px;
+    border-bottom: 1px solid $color-gray-2;
+    .Icon_content{
+        width: 95%;
+    }
+    .row{
+        .IMG{
+            width: 95%;
+           padding-left: $pd-2;
+           padding-top: $pd-1;
+        img{
+            
+            height: 24px;
+            display: block;
+            
+            margin: auto;
+            &:hover{
+                cursor: pointer;
+            }
+        }}
+    }
+}

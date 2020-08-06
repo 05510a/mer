@@ -11,6 +11,35 @@ html, body {
   font-weight: normal;
 }
 
+.stay__Item1 button {
+  background: linear-gradient(#242424, #0b0b0b);
+  color: #999;
+  padding: 0px 9px;
+  border: none;
+  text-align: left;
+  height: 35px;
+}
+
+.stay__Item1 button span {
+  transition: all 0.5s;
+}
+
+.stay__Item1 button:hover span {
+  cursor: pointer;
+  color: #00adef;
+}
+
+.stay__Item1 button i {
+  transition: all 0.5s;
+  margin-right: 14px;
+  font-size: 14px;
+}
+
+.stay__Item1 button i:hover {
+  cursor: pointer;
+  color: #00adef;
+}
+
 .More-infomation {
   background-color: #000;
 }
@@ -89,5 +118,199 @@ html, body {
   font-size: 14px;
   color: #00adef;
   font-weight: normal;
+}
+
+.Stay-informed {
+  background-color: #000;
+  padding: 30px 0px 0px;
+}
+
+.Stay-informed .Stay__content {
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 1px solid #333;
+}
+
+.Stay-informed .Stay__content h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: normal;
+  padding: 30px 0;
+  border-bottom: 1px solid #333;
+}
+
+.Stay-informed .Stay__content .stay__Item1 p {
+  font-size: 14px;
+  color: #999;
+  font-weight: normal;
+  padding-top: 13px;
+}
+
+.Stay-informed .Stay__content .stay__Item1 .email {
+  padding: 6px 6px;
+  background-color: #333;
+  border: 1px solid;
+  margin-bottom: 14px;
+}
+
+.Stay-informed .Stay__content .stay__Item1 .email::placeholder {
+  color: #fff;
+}
+
+.Stay-informed .Stay__content .stay__Item1 .email:focus {
+  outline: none;
+  border: 1px solid #999;
+}
+
+.Stay-informed .Stay__content .stay__Item1 .form-check .form-check-input:hover {
+  cursor: pointer;
+}
+
+.Stay-informed .Stay__content .stay__Item1 .form-check p {
+  color: #999;
+  margin: 0px 5px;
+  padding: 0px;
+}
+
+.Stay-informed .Stay__content .stay__Item1 .form-check p:hover {
+  cursor: pointer;
+}
+
+.Stay-informed .Stay__content .stay__Item1 .form-check p span {
+  color: #fff;
+}
+
+.Stay-informed .Stay__content .stay__Item1 .form-check p span:hover {
+  cursor: pointer;
+  color: #00adef;
+}
+
+.Stay-informed .Stay__content .stay__Item2 ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.Stay-informed .Stay__content .stay__Item2 ul li i {
+  font-size: 14px;
+  color: #999;
+  font-weight: normal;
+  transition: all .5s;
+}
+
+.Stay-informed .Stay__content .stay__Item2 ul li i:hover {
+  cursor: pointer;
+  color: #00adef;
+}
+
+.LoGo {
+  background-color: #000;
+  padding: 30px 0px;
+  border-bottom: 1px solid #999;
+}
+
+.LoGo .Icon_content {
+  width: 95%;
+}
+
+.LoGo .row .IMG {
+  width: 95%;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.LoGo .row .IMG img {
+  height: 24px;
+  display: block;
+  margin: auto;
+}
+
+.LoGo .row .IMG img:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #000;
+}
+
+footer .Footer__content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer .Footer__content p {
+  font-size: 14px;
+  color: #999;
+  font-weight: normal;
+}
+
+footer .Footer__content p span {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+footer .Footer__content p span:hover {
+  cursor: pointer;
+  color: #00adef;
+}
+
+footer .Footer__content .footer_Item {
+  padding: 30px 0;
+}
+
+footer .Footer__content .footer_Item .Lagauge ul {
+  list-style: none;
+}
+
+footer .Footer__content .footer_Item .Lagauge ul li {
+  display: inline;
+  color: #00adef;
+}
+
+footer .Footer__content .footer_Item .Lagauge ul li .Deutsch {
+  padding-right: 13px;
+  border-right: 1px solid #00adef;
+}
+
+footer .Footer__content .footer_Item .Lagauge ul li .Deutsch:hover {
+  cursor: pointer;
+  color: #0088c6;
+}
+
+footer .Footer__content .footer_Item .Lagauge ul li .English {
+  padding-left: 13px;
+  color: #fff;
+}
+
+footer .Footer__content .footer_Item .Contact ul {
+  text-align: right;
+  margin-right: 40px;
+}
+
+footer .Footer__content .footer_Item .Contact ul li {
+  list-style: none;
+  display: inline;
+  color: #999;
+  margin: 7px;
+}
+
+footer .Footer__content .footer_Item .Contact ul li span {
+  transition: all 0.5s;
+}
+
+footer .Footer__content .footer_Item .Contact ul li span:hover {
+  cursor: pointer;
+  color: #00adef;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_Item .Lagauge {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_Item .Contact ul {
+    text-align: left !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
